@@ -1,0 +1,121 @@
+.mainBody {
+    display: none;
+}
+
+.mainContent{
+    position: absolute;
+    bottom: 80px;
+    right: 30px;
+    border: 1px solid red;
+    border-radius: 15px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 7%, rgba(75,75,78,1) 94%, rgba(207,8,55,1) 95%);
+    height: 320px;
+    width: 330px;
+    margin-bottom: 7px;
+    font-family: "Trebuchet MS";
+}
+
+.mainBody {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.mainBodyLabel{
+    color: rgba(255, 51, 0, 0.74);
+    font-variant: small-caps;
+    font-size: medium;
+    text-align: center;
+    font-family: "Trebuchet MS";
+}
+
+.routeInfo{
+    color: orange;
+}
+
+.mainLogo {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.mainWrapper{
+    width: 330px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cargoManifest {
+    border: 1px solid bisque;
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+}
+
+
+.otherInformation {
+    border: 1px solid bisque;
+    border-radius: 5px;
+    margin: auto;
+    color: azure;
+    padding: 5px;
+    
+}
+
+.LoadInfoText {
+    font-variant: small-caps;
+    color: rgb(158, 168, 20);
+    font-size: small;
+    margin: 3px;
+    text-decoration: underline;
+    font-family: "Trebuchet MS";
+}
+
+.LoadInfoSubText{
+    font-variant: small-caps;
+    color: azure;
+    font-size: small;
+    margin: 3px;
+    font-family: "Trebuchet MS";
+}
+
+.stopsLeft {
+    color: red;
+    font-family: "Trebuchet MS";
+}
+
+.numbers{
+    color: aquamarine;
+    font-family: "Trebuchet MS";
+}
+
+.enRoute{
+    color: greenyellow;
+    font-family: "Trebuchet MS";
+}
+
+.nextStop{
+    color: yellow;
+    font-family: "Trebuchet MS";
+}
+
+.directionInfo{
+    text-align: center;
+    color: brown;
+    margin-bottom: 20px;
+    font-family: "Trebuchet MS";
+}
+
+.helpText{
+    text-decoration: solid;
+    font-variant: small-caps;
+    font-size: medium;
+    border-top: 3px solid rgb(87, 67, 81);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    font-weight: bolder;
+    font-family: "Trebuchet MS";
+}

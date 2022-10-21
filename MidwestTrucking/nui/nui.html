@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css" />
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="script.js"></script>
+    </head>
+    <body class="mainBody">
+        <div class="mainContent">
+            <div class="topLogo">
+                <img src="./images/walker_logo.png" class="mainLogo" />
+            </div>
+            <div class="mainBody">
+                <h1 class="mainBodyLabel">Current Job: <span class="routeInfo">Clucking Bell Route</span></h1>
+            </div>
+            <div class="mainWrapper">
+                <div class="cargoManifest">
+                    <div>
+                        <p class="LoadInfoText">Cargo Manifest</p>
+                    </div>
+                    <div>
+                        <p class="LoadInfoSubText"><span class="numbers" id="firstNum"></span><span class="LoadInfoSubText" id="firstItem"></span></p> 
+                    </div>
+                    <div>
+                        <p class="LoadInfoSubText"><span class="numbers" id="secondNum"></span><span class="LoadInfoSubText" id="secondItem"></span></p> 
+                    </div>
+                    <div>
+                        <p class="LoadInfoSubText"><span class="numbers" id="thirdNum"></span><span class="LoadInfoSubText" id="thirdItem"></span></p> 
+                    </div>
+                    <div>
+                        <p class="LoadInfoSubText"><span class="numbers" id="fourthNum"></span><span class="LoadInfoSubText" id="fourthItem"></span></p> 
+                    </div>
+                    <div>
+                        <p class="LoadInfoSubText"><span class="numbers" id="fifthNum"></span><span class="LoadInfoSubText" id="fifthItem"></span></p> 
+                    </div>
+                </div>
+                <div class="otherInformation">
+                    <div>
+                        <p class="LoadInfoText">Route Information</p>
+                    </div>
+                    <div>
+                        <p class="LoadInfoSubText">Stops Left: <span id="stopsLeft"></span></p>
+                    </div>
+                    <div>
+                        <p class="LoadInfoSubText">Next Stop: <span class="nextStop">Factory</span></p>
+                    </div>
+                    <div>
+                        <p class="LoadInfoSubText">Status: <span class="enRoute" id="enRoute"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="directionInfo">
+                <p id="helpText"></p>
+            </div>
+        </div>
+        <!-- <script src="./script.js" type="text/javascript"></script> -->
+    </body>
+</html>
